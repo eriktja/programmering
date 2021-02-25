@@ -7,6 +7,7 @@ public abstract class NaturalSatellite extends CelestialBody{
     private final CelestialBody centralCelestialBody;
     private static final double ASTRONOMICAL_UNITS = 149597871;
     private static final double GRAVITATIONAL_CONSTANT = 6.67408E-11;
+    private static final double KILO = 1000;
 
     public NaturalSatellite(
             String name,
@@ -63,11 +64,11 @@ public abstract class NaturalSatellite extends CelestialBody{
     // v = sqrt(G*M / r)
     // Get orbital velocity in meters/second. Input distance in kilometer
     public double orbitingVelocityMS(double distance) {
-        return Math.sqrt((GRAVITATIONAL_CONSTANT * getCentralCelestialBody().getKgMass()) / (distance * 1000));
+        return Math.sqrt((GRAVITATIONAL_CONSTANT * getCentralCelestialBody().getKgMass()) / (distance * KILO));
     }
     // Get orbital velocity in kilometers/second
     public double orbitingVelocityKMS(double distance) {
-        return orbitingVelocityMS(distance) / 1000;
+        return orbitingVelocityMS(distance) / KILO;
     }
 
     // Combines the "getDistanceToCentralBody"-method and "orbitingVelocityKMS"-method,
