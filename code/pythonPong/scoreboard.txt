@@ -1,0 +1,424 @@
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Red Player!
+Green player: 1
+Red player: 1
+
+Points to Red Player!
+Green player: 1
+Red player: 2
+
+Points to Green Player!
+Green player: 2
+Red player: 2
+
+Points to Green Player!
+Green player: 3
+Red player: 2
+
+Points to Red Player!
+Green player: 3
+Red player: 3
+
+Points to Green Player!
+Green player: 4
+Red player: 3
+
+Points to Red Player!
+Green player: 4
+Red player: 4
+
+Points to Green Player!
+Green player: 5
+Red player: 4
+
+Points to Red Player!
+Green player: 0
+Red player: 1
+
+Points to Red Player!
+Green player: 0
+Red player: 2
+
+Points to Red Player!
+Green player: 0
+Red player: 3
+
+Points to Green Player!
+Green player: 1
+Red player: 3
+
+Points to Green Player!
+Green player: 2
+Red player: 3
+
+Points to Green Player!
+Green player: 3
+Red player: 3
+
+Points to Red Player!
+Green player: 3
+Red player: 4
+
+Points to Red Player!
+Green player: 3
+Red player: 5
+
+Points to Red Player!
+Green player: 0
+Red player: 1
+
+Points to Red Player!
+Green player: 0
+Red player: 2
+
+Points to Green Player!
+Green player: 1
+Red player: 2
+
+Points to Red Player!
+Green player: 1
+Red player: 3
+
+Points to Red Player!
+Green player: 1
+Red player: 4
+
+Points to Green Player!
+Green player: 2
+Red player: 4
+
+Points to Green Player!
+Green player: 3
+Red player: 4
+
+Points to Green Player!
+Green player: 4
+Red player: 4
+
+Points to Red Player!
+Green player: 4
+Red player: 5
+
+Points to Red Player!
+Green player: 0
+Red player: 1
+
+Points to Red Player!
+Green player: 0
+Red player: 1
+
+Points to Red Player!
+Green player: 0
+Red player: 2
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 2
+Red player: 0
+
+Points to Red Player!
+Green player: 2
+Red player: 1
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Red Player!
+Green player: 1
+Red player: 1
+
+Points to Red Player!
+Green player: 1
+Red player: 2
+
+Points to Red Player!
+Green player: 1
+Red player: 3
+
+Points to Green Player!
+Green player: 2
+Red player: 3
+
+Points to Red Player!
+Green player: 2
+Red player: 4
+
+Points to Green Player!
+Green player: 3
+Red player: 4
+
+Points to Red Player!
+Green player: 3
+Red player: 5
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 2
+Red player: 0
+
+Points to Red Player!
+Green player: 2
+Red player: 1
+
+Points to Red Player!
+Green player: 2
+Red player: 2
+
+Points to Green Player!
+Green player: 3
+Red player: 2
+
+Points to Green Player!
+Green player: 4
+Red player: 2
+
+Points to Green Player!
+Green player: 5
+Red player: 2
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 2
+Red player: 0
+
+Points to Green Player!
+Green player: 3
+Red player: 0
+
+Points to Green Player!
+Green player: 4
+Red player: 0
+
+Points to Green Player!
+Green player: 5
+Red player: 0
+
+Points to Red Player!
+Green player: 0
+Red player: 1
+
+Points to Red Player!
+Green player: 0
+Red player: 2
+
+Points to Green Player!
+Green player: 1
+Red player: 2
+
+Points to Green Player!
+Green player: 2
+Red player: 2
+
+Points to Green Player!
+Green player: 3
+Red player: 2
+
+Points to Green Player!
+Green player: 4
+Red player: 2
+
+Points to Green Player!
+Green player: 5
+Red player: 2
+
+Points to Red Player!
+Green player: 0
+Red player: 1
+
+Points to Green Player!
+Green player: 1
+Red player: 1
+
+Points to Green Player!
+Green player: 2
+Red player: 1
+
+Points to Green Player!
+Green player: 3
+Red player: 1
+
+Points to Red Player!
+Green player: 0
+Red player: 1
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Red Player!
+Green player: 1
+Red player: 1
+
+Points to Green Player!
+Green player: 2
+Red player: 1
+
+Points to Red Player!
+Green player: 2
+Red player: 2
+
+Points to Green Player!
+Green player: 3
+Red player: 2
+
+Points to Red Player!
+Green player: 3
+Red player: 3
+
+Points to Red Player!
+Green player: 3
+Red player: 4
+
+Points to Red Player!
+Green player: 3
+Red player: 5
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Red Player!
+Green player: 1
+Red player: 1
+
+Points to Green Player!
+Green player: 2
+Red player: 1
+
+Points to Red Player!
+Green player: 2
+Red player: 2
+
+Points to Red Player!
+Green player: 2
+Red player: 3
+
+Points to Red Player!
+Green player: 2
+Red player: 4
+
+Points to Green Player!
+Green player: 3
+Red player: 4
+
+Points to Green Player!
+Green player: 4
+Red player: 4
+
+Points to Green Player!
+Green player: 5
+Red player: 4
+
+Points to Red Player!
+Green player: 0
+Red player: 1
+
+Points to Red Player!
+Green player: 0
+Red player: 2
+
+Points to Green Player!
+Green player: 1
+Red player: 2
+
+Points to Red Player!
+Green player: 1
+Red player: 3
+
+Points to Green Player!
+Green player: 2
+Red player: 3
+
+Points to Red Player!
+Green player: 2
+Red player: 4
+
+Points to Red Player!
+Green player: 2
+Red player: 5
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Red Player!
+Green player: 0
+Red player: 1
+
+Points to Green Player!
+Green player: 1
+Red player: 1
+
+Points to Red Player!
+Green player: 1
+Red player: 2
+
+Points to Red Player!
+Green player: 1
+Red player: 3
+
+Points to Green Player!
+Green player: 2
+Red player: 3
+
+Points to Red Player!
+Green player: 2
+Red player: 4
+
+Points to Green Player!
+Green player: 3
+Red player: 4
+
+Points to Red Player!
+Green player: 3
+Red player: 5
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 2
+Red player: 0
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 1
+Red player: 0
+
+Points to Green Player!
+Green player: 2
+Red player: 0

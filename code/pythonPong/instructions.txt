@@ -1,0 +1,13 @@
+ESC = Finish the game 
+(press the x in the startup-window to close the program)
+
+RETURN(ENTER) = Reset the score and start a new game
+
+RED PLAYER: 
+A = UP
+S = DOWN
+
+GREEN PLAYER: 
+ARROW UP = UP
+ARROW DOWN = DOWN
+
