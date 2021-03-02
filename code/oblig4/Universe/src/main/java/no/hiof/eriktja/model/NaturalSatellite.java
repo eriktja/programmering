@@ -132,11 +132,7 @@ public abstract class NaturalSatellite extends CelestialBody{
     }
 
     @Override
-    public double getKmRadius() {
-        return 0;
-    }
+    public abstract double getKmRadius();
     @Override
-    public double getKgMass() {
-        return 0;
-    }
+    public abstract double getKgMass();
 }

@@ -17,49 +17,56 @@ public class Main {
                 0.206,
                 88.0,
                 sol);
-        Planet venus = new Planet("Venus",
+        Planet venus = new Planet(
+                "Venus",
                 0.08465003077267387,
                 0.002564278187565859,
                 0.723,
                 0.007,
                 225.0,
                 sol);
-        Planet earth = new Planet("Earth",
+        Planet earth = new Planet(
+                "Earth",
                 0.08911486599899289,
                 0.003146469968387777,
                 1.0,
                 0.017,
                 365.0,
                 sol);
-        Planet mars = new Planet("Mars",
+        Planet mars = new Planet(
+                "Mars",
                 0.04741089912158004,
                 3.3667017913593256E-4,
                 1.524,
                 0.093,
                 687.0,
                 sol);
-        Planet jupiter = new Planet("Jupiter",
+        Planet jupiter = new Planet(
+                "Jupiter",
                 1.0,
                 1.0,
                 5.20440,
                 0.049,
                 4380.0,
                 sol);
-        Planet saturn = new Planet("Saturn",
+        Planet saturn = new Planet(
+                "Saturn",
                 0.8145247020645666,
                 0.2994204425711275,
                 9.5826,
                 0.057,
                 10585.0,
                 sol);
-        Planet uranus = new Planet("Uranus",
+        Planet uranus = new Planet(
+                "Uranus",
                 0.35475297935433336,
                 0.04573761854583773,
                 19.2184,
                 0.046,
                 30660.0,
                 sol);
-        Planet neptune = new Planet("Neptune",
+        Planet neptune = new Planet(
+                "Neptune",
                 0.34440217087226543,
                 0.05395152792413066,
                 30.11,
