@@ -1,6 +1,9 @@
 package no.hiof.eriktja.model;
+
+import org.jetbrains.annotations.NotNull;
+
 // Star.java is a subclass of Planet.java.
-public class Star extends CelestialBody{
+public class Star extends CelestialBody implements Comparable<CelestialBody>{
     private int effectiveTemp;
 
     private static final double SUN_MASS_IN_KG = 1.98892E30;
@@ -34,5 +37,15 @@ public class Star extends CelestialBody{
         return "The " + getName() +
                 " has an effective temperature of "
                 + getEffectiveTemp() + "K";
+    }
+
+
+    @Override
+    public int compareTo(@NotNull CelestialBody otherStar) {
+        if (getRadius() == otherStar.getRadius())
+                return 0;
+        else if (getRadius() < otherStar.getRadius())
+                return -1;
+        return 1;
     }
 }

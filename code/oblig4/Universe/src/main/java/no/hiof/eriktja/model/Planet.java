@@ -1,6 +1,8 @@
 package no.hiof.eriktja.model;
 
-public class Planet extends NaturalSatellite{
+import org.jetbrains.annotations.NotNull;
+
+public class Planet extends NaturalSatellite implements Comparable<CelestialBody>{
 
     private static final double JUPITER_RADIUS_IN_KM = 71492;
     private static final double JUPITER_MASS_IN_KG = 1.898E27;
@@ -39,5 +41,14 @@ public class Planet extends NaturalSatellite{
     public String toString() {
         return getName() + " has a radius of " + getKmRadius() + " km " +
                 "and a mass of " + getKgMass() + "kg";
+    }
+
+    @Override
+    public int compareTo(@NotNull CelestialBody otherPlanet) {
+        if (getRadius() == otherPlanet.getRadius())
+            return 0;
+        else if (getRadius() < otherPlanet.getRadius())
+            return -1;
+        return 1;
     }
 }

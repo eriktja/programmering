@@ -1,6 +1,6 @@
 package no.hiof.eriktja.model;
 
-public abstract class NaturalSatellite extends CelestialBody{
+public abstract class NaturalSatellite extends CelestialBody implements Comparable<CelestialBody>{
     private final double semiMajorAxis;
     private final double eccentricity;
     private final double orbitalPeriod;

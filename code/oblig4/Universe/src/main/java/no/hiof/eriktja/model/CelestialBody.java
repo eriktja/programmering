@@ -1,6 +1,6 @@
 package no.hiof.eriktja.model;
 
-public abstract class CelestialBody {
+public abstract class CelestialBody implements Comparable<CelestialBody> {
     private String name;
     private double radius, mass;
 

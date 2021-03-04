@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d108e2e-b346-4ce5-9450-5f908f097b07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../oblig3/SolarSystem/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oblig3/SolarSystem/out/production/SolarSystem/no/hiof/eriktja/NaturalSatellite.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig3/SolarSystem/out/production/SolarSystem/no/hiof/eriktja/NaturalSatellite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oblig3/SolarSystem/src/no/hiof/eriktja/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig3/SolarSystem/src/no/hiof/eriktja/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../oblig3/SolarSystem/src/no/hiof/eriktja/NaturalSatellite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig3/SolarSystem/src/no/hiof/eriktja/NaturalSatellite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/CelestialBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/NaturalSatellite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Planet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/PlanetSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Star.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/CelestialBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/CelestialBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Star.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../oblig3/SolarSystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Programmering 2/Forelesningsoppgaver/Forelesningsoppgave06/AfterLecture" />
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application">
