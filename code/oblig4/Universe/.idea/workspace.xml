@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d108e2e-b346-4ce5-9450-5f908f097b07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/controller/PlanetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/controller/PlanetSystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/repository/UniverseDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/repository/UniverseRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,16 +19,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/CelestialBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/NaturalSatellite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Planet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/PlanetSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Star.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/helloworld/Application$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/helloworld/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/CelestialBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/CelestialBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/Planet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/Planet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/PlanetSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/PlanetSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/Star.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/helloworld/Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/CelestialBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/CelestialBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/PlanetSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/PlanetSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Star.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +46,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1p12lGpPc3srKTv3RXfhBDhc05G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -58,18 +78,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Programmering 2/Forelesningsoppgaver/Forelesningsoppgave06/AfterLecture" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Programmering 2/Oblig 3/SolarSystem" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="no.hiof.eriktja.helloworld.Application" />
+      <option name="MAIN_CLASS_NAME" value="no.hiof.eriktja.Application" />
       <module name="Universe.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="no.hiof.eriktja.Main" />
+      <module name="Universe.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Application" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

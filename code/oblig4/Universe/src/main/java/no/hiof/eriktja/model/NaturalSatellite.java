@@ -1,6 +1,6 @@
 package no.hiof.eriktja.model;
 
-public abstract class NaturalSatellite extends CelestialBody implements Comparable<CelestialBody>{
+public abstract class NaturalSatellite extends CelestialBody{
     private final double semiMajorAxis;
     private final double eccentricity;
     private final double orbitalPeriod;
@@ -16,8 +16,9 @@ public abstract class NaturalSatellite extends CelestialBody implements Comparab
             double semiMajorAxis,
             double eccentricity,
             double orbitalPeriod,
-            CelestialBody centralCelestialBody) {
-        super(name, radius, mass);
+            CelestialBody centralCelestialBody,
+            String pictureUrl) {
+        super(name, radius, mass, pictureUrl);
         this.semiMajorAxis = semiMajorAxis;
         this.eccentricity = eccentricity;
         this.orbitalPeriod = orbitalPeriod;

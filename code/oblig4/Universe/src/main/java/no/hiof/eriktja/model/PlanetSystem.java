@@ -1,24 +1,26 @@
 package no.hiof.eriktja.model;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 
-public class PlanetSystem {
-    private String systemName;
+public class PlanetSystem implements Comparable<Planet> {
+    private String name;
     private Star centerStar;
+    private String pictureUrl;
     private ArrayList<Planet> planets = new ArrayList<>();
 
-    public PlanetSystem(){}
-
-    public PlanetSystem(String systemName, Star centerStar){
-        this.systemName = systemName;
+    public PlanetSystem(String name, Star centerStar, String pictureUrl){
+        this.name = name;
         this.centerStar = centerStar;
+        this.pictureUrl = pictureUrl;
     }
 
-    public void setSystemName(String systemName){
-        this.systemName = systemName;
+    public void setName(String name){
+        this.name = name;
     }
-    public String getSystemName(){
-        return systemName;
+    public String getName(){
+        return name;
     }
 
     public void setCenterStar(Star centerStar){
@@ -28,14 +30,21 @@ public class PlanetSystem {
         return centerStar;
     }
 
-    public ArrayList getPlanets() {
+    public ArrayList<Planet> getPlanets() {
         return new ArrayList<Planet>(planets);
     }
 
-    public void setPlanets(Planet planet) {
+    public void addPlanet(Planet planet) {
         planets.add(planet);
     }
 
+    public String getPictureUrl() {
+        return pictureUrl;
+    }
+
+    public void setPictureUrl(String pictureUrl) {
+        this.pictureUrl = pictureUrl;
+    }
 
     // Return the smallest planet
     public Planet getSmallest() {
@@ -82,8 +91,13 @@ public class PlanetSystem {
 
     @Override
     public String toString() {
-        return "The "+ systemName +
+        return "The "+ name +
                 " has the " + centerStar.getName() +
                 " as the center star. It has " + planets.size() + " planets.";
+    }
+
+    @Override
+    public int compareTo(@NotNull Planet o) {
+        return 0;
     }
 }
