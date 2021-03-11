@@ -4,7 +4,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 
-public class PlanetSystem implements Comparable<Planet> {
+public class PlanetSystem implements Comparable<PlanetSystem> {
     private String name;
     private Star centerStar;
     private String pictureUrl;
@@ -89,6 +89,13 @@ public class PlanetSystem implements Comparable<Planet> {
         return null;
     }
 
+    // Compare amount of planets in a PlanetSystem
+    @Override
+    public int compareTo(@NotNull PlanetSystem otherSystem) {
+        return this.planets.size() - otherSystem.planets.size();
+    }
+
+
     @Override
     public String toString() {
         return "The "+ name +
@@ -96,8 +103,4 @@ public class PlanetSystem implements Comparable<Planet> {
                 " as the center star. It has " + planets.size() + " planets.";
     }
 
-    @Override
-    public int compareTo(@NotNull Planet o) {
-        return 0;
-    }
 }

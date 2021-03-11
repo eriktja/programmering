@@ -7,6 +7,8 @@ import no.hiof.eriktja.repository.UniverseRepository;
 import io.javalin.http.Context;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class PlanetController {
     private UniverseRepository universeRepository;
@@ -17,9 +19,26 @@ public class PlanetController {
 
     public void getAllPlanetsInSystem(Context ctx) {
         String planetSystemName = ctx.pathParam(":planet-system-id");
-        ctx.json(universeRepository.getAllPlanetsInSystem(planetSystemName));
+        ArrayList<Planet> planets = universeRepository.getAllPlanetsInSystem(planetSystemName);
+        String sort_by = ctx.queryParam("sort_by");
+        if (sort_by.equals("num"))
+             ctx.json(universeRepository.getAllPlanetsInSystem(planetSystemName));
+        if (sort_by.equals("radius"))
+            Collections.sort(planets);
+        if (!sort_by.equals("radius")){
+            Collections.sort(planets, new Comparator<Planet>() {
+                @Override
+                public int compare(Planet aPlanet, Planet otherPlanet) {
+                    if (sort_by.equals("name"))
+                        return aPlanet.getName().compareTo(otherPlanet.getName());
+                    if(sort_by.equals("mass"))
+                        return (int) (aPlanet.getKgMass() - otherPlanet.getKgMass());
+                    return 0;
+                }
+            });
+        }
+        ctx.json(planets);
     }
-
 
     public void getSpecificPlanet(Context ctx) {
         String planetSystemName = ctx.pathParam(":planet-system-id");
@@ -27,11 +46,4 @@ public class PlanetController {
         Planet planet = universeRepository.getSpecificPlanet(planetSystemName,planetName);
         ctx.json(planet);
     }
-
-    /*public void sortPlanetsByName(Context ctx) {
-        String planetSystemName = ctx.pathParam(":planet-system-id");
-        String sorting = ctx.queryParam("sort_by=name");
-
-
-    }*/
 }

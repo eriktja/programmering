@@ -21,5 +21,4 @@ public class PlanetSystemController{
         ctx.json(universeRepository.getSpecificPlanetSystem(planetSystemName));
     }
 
-
 }

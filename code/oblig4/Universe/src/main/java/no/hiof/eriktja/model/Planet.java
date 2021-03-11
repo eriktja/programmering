@@ -26,12 +26,14 @@ public class Planet extends NaturalSatellite{
     public double getKmRadius() {
         return getRadius() * JUPITER_RADIUS_IN_KM;
     }
-
     // Calculate a planets actual mass in kg
     @Override
     public double getKgMass() {
         return getMass() * JUPITER_MASS_IN_KG;
     }
+    // Added two variables for planet-detail.vue
+    public double massInKg = getKgMass();
+    public double radiusInKm = getKmRadius();
 
 
     // Calculate a planets mass relative to Earth-standard

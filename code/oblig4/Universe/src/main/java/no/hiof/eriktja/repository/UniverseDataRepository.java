@@ -5,6 +5,8 @@ import no.hiof.eriktja.model.PlanetSystem;
 import no.hiof.eriktja.model.Star;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class UniverseDataRepository implements UniverseRepository {
     private ArrayList<PlanetSystem> planetSystems = new ArrayList<>();
@@ -13,11 +15,11 @@ public class UniverseDataRepository implements UniverseRepository {
         // A star which will become the central star of solarSystem
         Star sol = new Star("Sun", 1.0, 1.0, 5777, "http://bit.ly/333CTus");
         // A star which will become the central star of Kepler-11 System
-        Star keplerStar = new Star ("Kepler-11",1.889E30,710310,5680, "http://bit.ly/2Iz4jPB");
+        Star keplerStar = new Star ("Kepler-11",1.889E30,710310,5680, "http://bit.ly/336nzNZ");
         // A new PlanetSystem called solarSystem
         PlanetSystem solarSystem = new PlanetSystem("Solar System", sol, "http://bit.ly/3cVhuZc");
         // A new PlanetSystem called keplerSystem
-        PlanetSystem kepler11System = new PlanetSystem("Kepler-11 System", keplerStar, "http://bit.ly/336nzNZ");
+        PlanetSystem kepler11System = new PlanetSystem("Kepler-11 System", keplerStar, "http://bit.ly/2Iz4jPB");
         // Creating all the Planet-objects.
         Planet mercury = new Planet(
                 "Mercury",
@@ -163,7 +165,7 @@ public class UniverseDataRepository implements UniverseRepository {
 
     @Override
     public PlanetSystem getSpecificPlanetSystem(String name) {
-        for (PlanetSystem aSystem : planetSystems) {
+        for (PlanetSystem aSystem : getPlanetSystems()) {
             if (aSystem.getName().equalsIgnoreCase(name))
                 return aSystem;
         }
@@ -183,5 +185,44 @@ public class UniverseDataRepository implements UniverseRepository {
                 return planet;
         }
         return null;
+    }
+
+
+
+    @Override
+    public ArrayList<Planet> sortPlanetByName(String systemName) {
+        ArrayList<Planet> planetsInSystem = getSpecificPlanetSystem(systemName).getPlanets();
+        Collections.sort(planetsInSystem, new Comparator<Planet>() {
+            @Override
+            public int compare(Planet aPlanet, Planet otherPlanet) {
+                return aPlanet.getName().compareTo(otherPlanet.getName());
+            }
+        });
+        return planetsInSystem;
+    };
+
+
+    @Override
+    public ArrayList<Planet> sortPlanetByMass(String systemName) {
+        ArrayList<Planet> planetsInSystem = getSpecificPlanetSystem(systemName).getPlanets();
+        Collections.sort(planetsInSystem, new Comparator<Planet>() {
+            @Override
+            public int compare(Planet aPlanet, Planet otherPlanet) {
+                return (int)(aPlanet.getKgMass() - otherPlanet.getKgMass());
+            }
+        });
+        return planetsInSystem;
+    }
+
+    @Override
+    public ArrayList<Planet> sortPlanetByOrder(String systemName) {
+        return getSpecificPlanetSystem(systemName).getPlanets();
+    }
+
+    @Override
+    public ArrayList<Planet> sortPlanetByRadius(String systemName) {
+        ArrayList<Planet> planetsInSystem = getSpecificPlanetSystem(systemName).getPlanets();
+        Collections.sort(planetsInSystem);
+        return planetsInSystem;
     }
 }

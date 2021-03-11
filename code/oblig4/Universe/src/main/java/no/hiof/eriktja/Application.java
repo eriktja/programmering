@@ -32,7 +32,10 @@ public class Application {
 
         app.get("/planet-system/", new VueComponent("planet-system-overview"));
         app.get("/planet-system/:planet-system-id", new VueComponent("planet-system-detail"));
-        //app.get("/planet-system/:planet-system-id/planets", new VueComponent("planet-system-overview"));
+        /*app.get("/planet-system/:planet-system-id?sort_by=mass", new VueComponent("planet-system-detail"));
+        app.get("/planet-system/:planet-system-id?sort_by=radius", new VueComponent("planet-system-detail"));
+        app.get("/planet-system/:planet-system-id?sort_by=name", new VueComponent("planet-system-detail"));
+        app.get("/planet-system/:planet-system-id?sort_by=num", new VueComponent("planet-system-detail"));*/
         app.get("/planet-system/:planet-system-id/planets/:planet-id", new VueComponent("planet-detail"));
 
         UniverseDataRepository milkyWay = new UniverseDataRepository();
@@ -60,7 +63,30 @@ public class Application {
             public void handle(@NotNull Context ctx) throws Exception {
                 planetController.getSpecificPlanet(ctx);
             }
+        });/*
+        app.get("/api/planet-system/:planet-system-id?sort_by=mass", new Handler() {
+            @Override
+            public void handle(@NotNull Context ctx) throws Exception {
+                planetController.sortPlanetByMass(ctx);
+            }
         });
-
+        app.get("/api/planet-system/:planet-system-id?sort_by=radius", new Handler() {
+            @Override
+            public void handle(@NotNull Context ctx) throws Exception {
+                planetController.sortPlanetByRadius(ctx);
+            }
+        });
+        app.get("/api/planet-system/:planet-system-id?sort_by=name", new Handler() {
+            @Override
+            public void handle(@NotNull Context ctx) throws Exception {
+                planetController.sortPlanetByName(ctx);
+            }
+        });
+        app.get("/api/planet-system/:planet-system-id?sort_by=num", new Handler() {
+            @Override
+            public void handle(@NotNull Context ctx) throws Exception {
+                planetController.sortPlanetByOrder(ctx);
+            }
+        });*/
     }
 }

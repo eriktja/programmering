@@ -32,6 +32,9 @@
                 </a>
             </li>
         </ul>
+        <div id="returnbox">
+        <p id="button2"><a :href="`/planet-system/`">Click to return to Universe overview</a></p>
+        </div>
     </div>
 </template>
 <script>
@@ -180,6 +183,33 @@
     }
 
     .button:hover{
+        border: 2px solid white;
+    }
+
+    #returnbox {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+    }
+
+    #button2 {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid white;
+            color: white;
+            border-radius: 15px;
+            text-align: center;
+    }
+
+    #button2 a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #button2:hover{
         border: 2px solid white;
     }
 
