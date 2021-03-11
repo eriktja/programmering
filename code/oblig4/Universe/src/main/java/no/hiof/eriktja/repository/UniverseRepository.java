@@ -11,10 +11,4 @@ public interface UniverseRepository {
     PlanetSystem getSpecificPlanetSystem(String name);
     ArrayList<Planet> getAllPlanetsInSystem(String name);
     Planet getSpecificPlanet(String planetSystemName, String planetName);
-    ArrayList<Planet> sortPlanetByName(String systemName);
-    ArrayList<Planet> sortPlanetByMass(String systemName);
-    ArrayList<Planet> sortPlanetByRadius(String systemName);
-    ArrayList<Planet> sortPlanetByOrder(String systemName);
-
-
 }

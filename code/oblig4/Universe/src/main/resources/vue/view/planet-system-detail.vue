@@ -33,7 +33,7 @@
             </li>
         </ul>
         <div id="returnbox">
-        <p id="button2"><a :href="`/planet-system/`">Click to return to Universe overview</a></p>
+        <p id="button2"><a :href="`/planet-system/`">Return to Universe overview</a></p>
         </div>
     </div>
 </template>

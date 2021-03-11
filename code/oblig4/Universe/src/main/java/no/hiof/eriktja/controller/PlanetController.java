@@ -21,13 +21,13 @@ public class PlanetController {
         String planetSystemName = ctx.pathParam(":planet-system-id");
         ArrayList<Planet> planets = universeRepository.getAllPlanetsInSystem(planetSystemName);
         String sort_by = ctx.queryParam("sort_by");
-        if (sort_by.equals("num"))
+        if (sort_by.equals("num")) //num returns original ArrayList of planets
              ctx.json(universeRepository.getAllPlanetsInSystem(planetSystemName));
-        if (sort_by.equals("radius"))
+        else if (sort_by.equals("radius")) //radius returns the method from task 2.1
             Collections.sort(planets);
-        if (!sort_by.equals("radius")){
+        else {
             Collections.sort(planets, new Comparator<Planet>() {
-                @Override
+                @Override // create methods for name and mass
                 public int compare(Planet aPlanet, Planet otherPlanet) {
                     if (sort_by.equals("name"))
                         return aPlanet.getName().compareTo(otherPlanet.getName());

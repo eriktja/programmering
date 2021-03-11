@@ -37,7 +37,7 @@ public class UniverseDataRepository implements UniverseRepository {
                 0.007,
                 225.0,
                 sol,
-                "http://bit.ly/2W3p4L9");
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg/1024px-PIA23791-Venus-NewlyProcessedView-20200608.jpg");
         Planet earth = new Planet("Earth",
                 0.08911486599899289,
                 0.003146469968387777,
@@ -187,42 +187,4 @@ public class UniverseDataRepository implements UniverseRepository {
         return null;
     }
 
-
-
-    @Override
-    public ArrayList<Planet> sortPlanetByName(String systemName) {
-        ArrayList<Planet> planetsInSystem = getSpecificPlanetSystem(systemName).getPlanets();
-        Collections.sort(planetsInSystem, new Comparator<Planet>() {
-            @Override
-            public int compare(Planet aPlanet, Planet otherPlanet) {
-                return aPlanet.getName().compareTo(otherPlanet.getName());
-            }
-        });
-        return planetsInSystem;
-    };
-
-
-    @Override
-    public ArrayList<Planet> sortPlanetByMass(String systemName) {
-        ArrayList<Planet> planetsInSystem = getSpecificPlanetSystem(systemName).getPlanets();
-        Collections.sort(planetsInSystem, new Comparator<Planet>() {
-            @Override
-            public int compare(Planet aPlanet, Planet otherPlanet) {
-                return (int)(aPlanet.getKgMass() - otherPlanet.getKgMass());
-            }
-        });
-        return planetsInSystem;
-    }
-
-    @Override
-    public ArrayList<Planet> sortPlanetByOrder(String systemName) {
-        return getSpecificPlanetSystem(systemName).getPlanets();
-    }
-
-    @Override
-    public ArrayList<Planet> sortPlanetByRadius(String systemName) {
-        ArrayList<Planet> planetsInSystem = getSpecificPlanetSystem(systemName).getPlanets();
-        Collections.sort(planetsInSystem);
-        return planetsInSystem;
-    }
 }
