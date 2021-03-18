@@ -19,7 +19,7 @@ public class Application {
         app.config.enableWebjars();
 
         // Oppgave 2.2. Hello World
-        app.get("/", new Handler() {
+        app.get("/helloworld", new Handler() {
             @Override
             public void handle(@NotNull Context ctx) throws Exception {
                 ctx.result("Hello World");
@@ -32,6 +32,8 @@ public class Application {
         PlanetController planetController = new PlanetController(universeRepository);
         // Creating an instance of UniverseDataRepository creates
         UniverseDataRepository milkyWay = new UniverseDataRepository();
+
+        app.get("/", ctx -> ctx.redirect("/planet-system"));
 
         app.get("/planet-system/", new VueComponent("planet-system-overview"));
         app.get("/planet-system/:planet-system-id", new VueComponent("planet-system-detail"));

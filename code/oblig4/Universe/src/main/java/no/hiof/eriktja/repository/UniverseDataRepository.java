@@ -158,7 +158,7 @@ public class UniverseDataRepository implements UniverseRepository {
 
     @Override
     public ArrayList<PlanetSystem> getPlanetSystems() {
-        return new ArrayList<PlanetSystem>(planetSystems);
+        return new ArrayList<>(planetSystems);
     }
 
     @Override
