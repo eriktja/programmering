@@ -1,8 +1,6 @@
 package no.hiof.eriktja.controller;
 
 import no.hiof.eriktja.model.Planet;
-import no.hiof.eriktja.model.PlanetSystem;
-import no.hiof.eriktja.repository.UniverseDataRepository;
 import no.hiof.eriktja.repository.UniverseRepository;
 import io.javalin.http.Context;
 
@@ -17,6 +15,7 @@ public class PlanetController {
         this.universeRepository = universeRepository;
     }
 
+    // methods to display all planets in vue, with sorting.
     public void getAllPlanetsInSystem(Context ctx) {
         String planetSystemName = ctx.pathParam(":planet-system-id");
         ArrayList<Planet> planets = universeRepository.getAllPlanetsInSystem(planetSystemName);

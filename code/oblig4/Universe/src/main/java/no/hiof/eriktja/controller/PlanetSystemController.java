@@ -1,10 +1,8 @@
 package no.hiof.eriktja.controller;
 
 import io.javalin.http.Context;
-import no.hiof.eriktja.model.PlanetSystem;
 import no.hiof.eriktja.repository.UniverseRepository;
 
-import java.util.ArrayList;
 
 public class PlanetSystemController{
     private UniverseRepository universeRepository;

@@ -5,8 +5,6 @@ import no.hiof.eriktja.model.PlanetSystem;
 import no.hiof.eriktja.model.Star;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 
 public class UniverseDataRepository implements UniverseRepository {
     private ArrayList<PlanetSystem> planetSystems = new ArrayList<>();
