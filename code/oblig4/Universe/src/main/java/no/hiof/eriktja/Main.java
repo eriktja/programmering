@@ -1,7 +1,12 @@
 package no.hiof.eriktja;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 import no.hiof.eriktja.repository.UniverseDataRepository;
 import no.hiof.eriktja.model.*;
 
@@ -32,5 +37,31 @@ public class Main {
         Collections.sort(planetSystems);
         for (PlanetSystem planetSystem : planetSystems)
             System.out.println(planetSystem);
+
+
+        //skrivTilFil(milkyWay.getPlanetSystems(), "planetSystems.json");
+        ArrayList<PlanetSystem> returnSystem = lesFraFil("planetSystems.json");
+        System.out.println(returnSystem);
+
+    }
+    private static void skrivTilFil(ArrayList<PlanetSystem> planetSystems, String filnavn){
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File(filnavn), planetSystems);
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
+    }
+
+    private static ArrayList<PlanetSystem> lesFraFil(String filnavn){
+        ArrayList<PlanetSystem> planetSystemReturnList = new ArrayList<>();
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            PlanetSystem[] planetSystemArray = objectMapper.readValue(new File(filnavn), PlanetSystem[].class);
+            planetSystemReturnList.addAll(Arrays.asList(planetSystemArray));
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
+        return planetSystemReturnList;
     }
 }

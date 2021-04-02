@@ -1,11 +1,16 @@
 package no.hiof.eriktja.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.jetbrains.annotations.NotNull;
 
 public abstract class CelestialBody implements Comparable<CelestialBody> {
     private String name;
     private double radius, mass;
     private String pictureUrl;
+
+    public CelestialBody() {
+    }
 
     public CelestialBody(String name, double radius, double mass, String pictureUrl) {
         this.name = name;
@@ -42,12 +47,13 @@ public abstract class CelestialBody implements Comparable<CelestialBody> {
         return pictureUrl;
     }
 
+
     public void setPictureUrl(String pictureUrl) {
         this.pictureUrl = pictureUrl;
     }
-
+    @JsonIgnore
     public abstract double getKmRadius();
-
+    @JsonIgnore
     public abstract double getKgMass();
 
     @Override

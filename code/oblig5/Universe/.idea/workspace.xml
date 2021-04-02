@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d108e2e-b346-4ce5-9450-5f908f097b07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../oblig4/Universe/planetSystems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Universe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Universe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planets_100.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planets_100.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planets_100_with_column_descriptions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planets_4000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planets_4000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planets_4000_with_colum_descriptions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/repository/UniverseCSVRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/repository/UniverseJSONRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vue/view/planet-create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/vue/view/planet-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCSVfile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testJSONfile.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/CelestialBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/CelestialBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/NaturalSatellite.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/NaturalSatellite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/Planet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/Planet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/PlanetSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/PlanetSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/build/classes/java/main/no/hiof/eriktja/model/Star.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/CelestialBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/CelestialBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/PlanetSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/PlanetSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../oblig4/Universe/src/main/java/no/hiof/eriktja/model/Star.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1p12lGpPc3srKTv3RXfhBDhc05G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="no.hiof.eriktja.Application" />
+      <module name="Universe.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d108e2e-b346-4ce5-9450-5f908f097b07" name="Default Changelist" comment="" />
+      <created>1614336426267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614336426267</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

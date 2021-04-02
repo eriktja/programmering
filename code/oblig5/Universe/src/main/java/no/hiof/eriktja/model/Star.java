@@ -1,0 +1,45 @@
+package no.hiof.eriktja.model;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+// Star.java is a subclass of Planet.java.
+public class Star extends CelestialBody{
+    private double effectiveTemp;
+
+    private static final double SUN_MASS_IN_KG = 1.98892E30;
+    private static final double SUN_RADIUS_IN_KG = 695700;
+
+    public Star() {
+    }
+
+    public Star(String name, double radius, double mass, double effectiveTemp, String pictureUrl) {
+        super(name, radius, mass, pictureUrl);
+        this.effectiveTemp = effectiveTemp;
+    }
+
+
+    public double getEffectiveTemp() {
+        return effectiveTemp;
+    }
+
+    public void setEffectiveTemp(double effectiveTemp) {
+        this.effectiveTemp = effectiveTemp;
+    }
+
+    // Override the KmRadius and KgMass methods from Planet
+    @Override @JsonIgnore
+    public double getRadiusInKm() {
+        return getRadius() * SUN_RADIUS_IN_KG;
+    }
+    @Override @JsonIgnore
+    public double getMassInKg() {
+        return getMass() * SUN_MASS_IN_KG;
+    }
+
+    @Override
+    public String toString() {
+        return "The " + getName() +
+                " has an effective temperature of "
+                + getEffectiveTemp() + "K";
+    }
+}

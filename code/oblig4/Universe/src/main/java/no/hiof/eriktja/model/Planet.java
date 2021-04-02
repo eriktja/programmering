@@ -1,5 +1,6 @@
 package no.hiof.eriktja.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.jetbrains.annotations.NotNull;
 
 public class Planet extends NaturalSatellite{
@@ -8,6 +9,9 @@ public class Planet extends NaturalSatellite{
     private static final double JUPITER_MASS_IN_KG = 1.898E27;
     private static final double EARTH_MASS_IN_KG = 5.972E24;
     private static final double EARTH_RADIUS_IN_KM = 6371;
+
+    public Planet() {
+    }
 
     public Planet(
             String name,
@@ -22,26 +26,30 @@ public class Planet extends NaturalSatellite{
     }
 
     // Calculate a planets actual radius in kilometer
-    @Override
+    @Override @JsonIgnore
     public double getKmRadius() {
         return getRadius() * JUPITER_RADIUS_IN_KM;
     }
     // Calculate a planets actual mass in kg
-    @Override
+    @Override @JsonIgnore
     public double getKgMass() {
         return getMass() * JUPITER_MASS_IN_KG;
     }
     // Added two variables for planet-detail.vue
+    @JsonIgnore
     public double massInKg = getKgMass();
+    @JsonIgnore
     public double radiusInKm = getKmRadius();
 
 
     // Calculate a planets mass relative to Earth-standard
+    @JsonIgnore
     public double getMEarth() {
         double earthMass = EARTH_MASS_IN_KG;
         return getKgMass() / earthMass;
     }
     // Calculate a planets radius relative to Earth-standard
+    @JsonIgnore
     public double getREarth() {
         double earthRadius = EARTH_RADIUS_IN_KM;
         return getKmRadius() / earthRadius;

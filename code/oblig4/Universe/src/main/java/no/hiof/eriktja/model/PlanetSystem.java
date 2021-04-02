@@ -10,6 +10,9 @@ public class PlanetSystem implements Comparable<PlanetSystem> {
     private String pictureUrl;
     private ArrayList<Planet> planets = new ArrayList<>();
 
+    public PlanetSystem() {
+    }
+
     public PlanetSystem(String name, Star centerStar, String pictureUrl){
         this.name = name;
         this.centerStar = centerStar;

@@ -5,6 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d108e2e-b346-4ce5-9450-5f908f097b07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/planetSystems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/.idea/Universe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/.idea/modules/Universe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/planets_100.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/planets_4000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/src/main/java/no/hiof/eriktja/repository/UniverseJSONRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/src/main/resources/vue/view/planet-create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../oblig5/Universe/src/main/resources/vue/view/planet-update.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,14 +27,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/CelestialBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/CelestialBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/NaturalSatellite.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/NaturalSatellite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/Planet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/Planet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/PlanetSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/PlanetSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/no/hiof/eriktja/model/Star.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/repository/UniverseDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/repository/UniverseDataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/CelestialBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/CelestialBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/NaturalSatellite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/PlanetSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/PlanetSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hiof/eriktja/model/Star.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +86,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Programmering 2/Oblig 3/SolarSystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../oblig5/Universe" />
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="no.hiof.eriktja.Application" />
       <module name="Universe.main" />

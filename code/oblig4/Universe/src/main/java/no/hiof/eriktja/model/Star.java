@@ -1,5 +1,7 @@
 package no.hiof.eriktja.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.jetbrains.annotations.NotNull;
 
 // Star.java is a subclass of Planet.java.
@@ -8,6 +10,9 @@ public class Star extends CelestialBody{
 
     private static final double SUN_MASS_IN_KG = 1.98892E30;
     private static final double SUN_RADIUS_IN_KG = 695700;
+
+    public Star() {
+    }
 
     public Star(String name, double radius, double mass, int effectiveTemp, String pictureUrl) {
         super(name, radius, mass, pictureUrl);
@@ -23,11 +28,12 @@ public class Star extends CelestialBody{
     }
 
     // Override the KmRadius and KgMass methods from Planet
-    @Override
+
+    @Override @JsonIgnore
     public double getKmRadius() {
         return getRadius() * SUN_RADIUS_IN_KG;
     }
-    @Override
+    @Override @JsonIgnore
     public double getKgMass() {
         return getMass() * SUN_MASS_IN_KG;
     }

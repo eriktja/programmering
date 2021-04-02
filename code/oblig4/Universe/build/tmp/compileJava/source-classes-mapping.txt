@@ -4,19 +4,10 @@ no/hiof/eriktja/model/Planet.java
  no.hiof.eriktja.model.Planet
 no/hiof/eriktja/model/CelestialBody.java
  no.hiof.eriktja.model.CelestialBody
-no/hiof/eriktja/repository/UniverseRepository.java
- no.hiof.eriktja.repository.UniverseRepository
-no/hiof/eriktja/model/NaturalSatellite.java
- no.hiof.eriktja.model.NaturalSatellite
-no/hiof/eriktja/model/Star.java
- no.hiof.eriktja.model.Star
-no/hiof/eriktja/controller/PlanetController.java
- no.hiof.eriktja.controller.PlanetController
- no.hiof.eriktja.controller.PlanetController$1
-no/hiof/eriktja/controller/PlanetSystemController.java
- no.hiof.eriktja.controller.PlanetSystemController
 no/hiof/eriktja/repository/UniverseDataRepository.java
  no.hiof.eriktja.repository.UniverseDataRepository
+no/hiof/eriktja/controller/PlanetSystemController.java
+ no.hiof.eriktja.controller.PlanetSystemController
 no/hiof/eriktja/Application.java
  no.hiof.eriktja.Application
  no.hiof.eriktja.Application$1
@@ -24,5 +15,14 @@ no/hiof/eriktja/Application.java
  no.hiof.eriktja.Application$3
  no.hiof.eriktja.Application$4
  no.hiof.eriktja.Application$5
+no/hiof/eriktja/repository/UniverseRepository.java
+ no.hiof.eriktja.repository.UniverseRepository
 no/hiof/eriktja/Main.java
  no.hiof.eriktja.Main
+no/hiof/eriktja/model/Star.java
+ no.hiof.eriktja.model.Star
+no/hiof/eriktja/model/NaturalSatellite.java
+ no.hiof.eriktja.model.NaturalSatellite
+no/hiof/eriktja/controller/PlanetController.java
+ no.hiof.eriktja.controller.PlanetController
+ no.hiof.eriktja.controller.PlanetController$1
