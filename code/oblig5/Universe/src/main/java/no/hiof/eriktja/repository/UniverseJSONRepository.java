@@ -6,10 +6,12 @@ import no.hiof.eriktja.model.PlanetSystem;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 
-public class UniverseJSONRepository implements UniverseRepository{
+public class UniverseJSONRepository implements UniverseRepository, Runnable{
     private String fileName;
     private HashMap<String, PlanetSystem> planetSystemHashMap;
     private PlanetSystem[] planetSystemArray;
@@ -78,26 +80,94 @@ public class UniverseJSONRepository implements UniverseRepository{
 
     @Override
     public ArrayList<Planet> deletePlanet(String planetName, String planetSystemName) {
-        ArrayList<PlanetSystem> planetSystems = getPlanetSystems();
-        ArrayList<Planet> planets = new ArrayList<>();
-        for (PlanetSystem planetSystem : planetSystems) {
-            if (planetSystem.getName().equalsIgnoreCase(planetSystemName))
-                planets = planetSystem.getPlanets();
-                planets.removeIf(planet -> planet.getName().equalsIgnoreCase(planetName));
-            writeToFile(planetSystems, "testJSONfile.json");
-            return planets;
+        PlanetSystem planetSystem = this.planetSystemHashMap.get(planetSystemName);
+        ArrayList<Planet> planets = planetSystem.getPlanets();
+        Iterator<Planet> planetIterator = planets.iterator();
+        while (planetIterator.hasNext()){
+            Planet aPlanet = planetIterator.next();
+            if (aPlanet.getName().equalsIgnoreCase(planetName)){
+                planetIterator.remove();
+                planetSystem.setPlanets(planets);
+                planetSystemHashMap.put(planetSystem.getName(), planetSystem);
+                ArrayList<PlanetSystem> updatedPlanetSystem = new ArrayList<>(planetSystemHashMap.values());
+                writeToFile(updatedPlanetSystem, "testJSONfile.json");
+                return planets;
+            }
+        }
+        return planets;
+    }
+    @Override
+    public ArrayList<Planet> updatePlanet(String planetName ,
+                                          String planetSystemName,
+                                          HashMap<String, String> planetInfoHashMap) {
+        PlanetSystem planetSystem = this.planetSystemHashMap.get(planetSystemName);
+        ArrayList<Planet> planets = planetSystem.getPlanets();
+        for (Planet aPlanet : planets) {
+            if (aPlanet.getName().equalsIgnoreCase(planetName)) {
+                aPlanet.setRadius(Double.parseDouble(planetInfoHashMap.get("radius")));
+                aPlanet.setMass(Double.parseDouble(planetInfoHashMap.get("mass")));
+                aPlanet.setSemiMajorAxis(Double.parseDouble(planetInfoHashMap.get("semiMajorAxis")));
+                aPlanet.setEccentricity(Double.parseDouble(planetInfoHashMap.get("eccentricity")));
+                aPlanet.setOrbitalPeriod(Double.parseDouble(planetInfoHashMap.get("orbitalPeriod")));
+                aPlanet.setPictureUrl(planetInfoHashMap.get("pictureUrl"));
+                planetSystemHashMap.put(planetSystem.getName(), planetSystem);
+                ArrayList<PlanetSystem> updatedPlanetSystem = new ArrayList<>(planetSystemHashMap.values());
+                writeToFile(updatedPlanetSystem, "testJSONfile.json");
+                return planets;
+            }
         }
         return null;
     }
+    /*@Override
+    public ArrayList<Planet> updatePlanet(String planetName ,
+                                          String planetSystemName,
+                                          String name,
+                                          double radius,
+                                          double mass,
+                                          double semiMajorAxis,
+                                          double eccentricity,
+                                          double orbitalPeriod,
+                                          String pictureUrl) {
+        PlanetSystem planetSystem = this.planetSystemHashMap.get(planetSystemName);
+        ArrayList<Planet> planets = planetSystem.getPlanets();
+        for (Planet aPlanet : planets) {
+            if (aPlanet.getName().equalsIgnoreCase(planetName)) {
+                aPlanet.setName(name);
+                aPlanet.setRadius(radius);
+                aPlanet.setSemiMajorAxis(semiMajorAxis);
+                aPlanet.setEccentricity(eccentricity);
+                aPlanet.setOrbitalPeriod(orbitalPeriod);
+                aPlanet.setPictureUrl(pictureUrl);
+                planetSystemHashMap.put(planetSystem.getName(), planetSystem);
+                ArrayList<PlanetSystem> updatedPlanetSystem = new ArrayList<>(planetSystemHashMap.values());
+                writeToFile(updatedPlanetSystem, "testJSONfile.json");
+                return planets;
+            }
+        }
+        return null;
+    }*/
 
     @Override
-    public Planet updatePlanet(Planet planet, String planetSystemName) {
-        return null;
+    public ArrayList<Planet> createPlanet(Planet planet, String planetSystemName) {
+        PlanetSystem planetSystem = this.planetSystemHashMap.get(planetSystemName);
+        planet.setCentralCelestialBody(planetSystem.getCenterStar());
+        planetSystem.addPlanet(planet);
+        this.planetSystemHashMap.put(planetSystemName, planetSystem);
+        ArrayList<PlanetSystem> updatedPlanetSystem = new ArrayList<>(planetSystemHashMap.values());
+        writeToFile(updatedPlanetSystem, "testJSONfile.json");
+        return planetSystem.getPlanets();
     }
 
     @Override
-    public Planet createPlanet(Planet planet, String planetSystemName) {
+    public void run() {
+        /*public static void writeToFile(ArrayList<PlanetSystem> planetSystems, String fileName){
+            ObjectMapper objectMapper = new ObjectMapper();
 
-        return planet;
+            try {
+                objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File(fileName) ,planetSystems);
+            } catch (IOException ioException) {
+                ioException.printStackTrace();
+            }
+        }*/
     }
 }

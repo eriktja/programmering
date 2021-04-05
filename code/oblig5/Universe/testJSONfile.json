@@ -1155,4 +1155,1375 @@
       "effectiveTemp" : 5962.0
     }
   } ]
+}, {
+  "name" : "Kepler-8 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-8",
+    "radius" : 1.49,
+    "mass" : 1.2099513323278028,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6213.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-8 b",
+    "radius" : 1.416,
+    "mass" : 0.59,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 7090939.085399999,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 3.5224991,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-8",
+      "radius" : 1.49,
+      "mass" : 1.2099513323278028,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6213.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-965 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-965",
+    "radius" : 1.15,
+    "mass" : 1.0499577677224736,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5886.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-965 b",
+    "radius" : 0.302,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 134.2527298,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-965",
+      "radius" : 1.15,
+      "mass" : 1.0499577677224736,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5886.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-976 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-976",
+    "radius" : 0.83,
+    "mass" : 0.8699650075414781,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5232.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-976 b",
+    "radius" : 0.353,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 105.9564148,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-976",
+      "radius" : 0.83,
+      "mass" : 0.8699650075414781,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5232.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-207 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-207",
+    "radius" : 1.59,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5920.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-207 b",
+    "radius" : 0.14,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 4338338.259000001,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 1.611865,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-207",
+      "radius" : 1.59,
+      "mass" : 0.0,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5920.0
+    }
+  }, {
+    "type" : "Planet",
+    "name" : "Kepler-207 c",
+    "radius" : 0.134,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 6582306.324,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 3.071571,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-207",
+      "radius" : 1.59,
+      "mass" : 0.0,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5920.0
+    }
+  }, {
+    "type" : "Planet",
+    "name" : "Kepler-207 d",
+    "radius" : 0.295,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 1.0172655228E7,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 5.868075,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-207",
+      "radius" : 1.59,
+      "mass" : 0.0,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5920.0
+    }
+  } ]
+}, {
+  "name" : "LkCa 15 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "LkCa 15",
+    "radius" : 0.0,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 0.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "LkCa 15 b",
+    "radius" : 0.0,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 2.1990887037E9,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 0.0,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "LkCa 15",
+      "radius" : 0.0,
+      "mass" : 0.0,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 0.0
+    }
+  }, {
+    "type" : "Planet",
+    "name" : "LkCa 15 c",
+    "radius" : 0.0,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 2.7825204006000004E9,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 0.0,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "LkCa 15",
+      "radius" : 0.0,
+      "mass" : 0.0,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 0.0
+    }
+  } ]
+}, {
+  "name" : "11 UMi System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "11 UMi",
+    "radius" : 29.79,
+    "mass" : 2.779888185017597,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 4213.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "11 UMi b",
+    "radius" : 0.0,
+    "mass" : 14.740000000000002,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 2.2888474263E8,
+    "eccentricity" : 0.08,
+    "orbitalPeriod" : 516.21997,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "11 UMi",
+      "radius" : 29.79,
+      "mass" : 2.779888185017597,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 4213.0
+    }
+  } ]
+}, {
+  "name" : "HD 178911 B System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "HD 178911 B",
+    "radius" : 1.08,
+    "mass" : 1.2399501256913021,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5588.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "HD 178911 B b",
+    "radius" : 0.0,
+    "mass" : 8.03,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 5.086327614E7,
+    "eccentricity" : 0.11,
+    "orbitalPeriod" : 71.484,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "HD 178911 B",
+      "radius" : 1.08,
+      "mass" : 1.2399501256913021,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5588.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1051 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1051",
+    "radius" : 1.73,
+    "mass" : 1.4299424836601309,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6675.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1051 b",
+    "radius" : 0.303,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 25.96200249,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1051",
+      "radius" : 1.73,
+      "mass" : 1.4299424836601309,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6675.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1062 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1062",
+    "radius" : 0.7,
+    "mass" : 0.7499698340874812,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 4597.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1062 b",
+    "radius" : 0.157,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 9.30412078,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1062",
+      "radius" : 0.7,
+      "mass" : 0.7499698340874812,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 4597.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-111 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-111",
+    "radius" : 1.16,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5952.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-111 b",
+    "radius" : 0.141,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 6881502.066,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 3.341815,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-111",
+      "radius" : 1.16,
+      "mass" : 0.0,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5952.0
+    }
+  }, {
+    "type" : "Planet",
+    "name" : "Kepler-111 c",
+    "radius" : 0.651,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 1.13843979831E8,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 224.784608,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-111",
+      "radius" : 1.16,
+      "mass" : 0.0,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5952.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-880 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-880",
+    "radius" : 1.74,
+    "mass" : 1.45994127702363,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6761.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-880 b",
+    "radius" : 0.237,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 7.71468975,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-880",
+      "radius" : 1.74,
+      "mass" : 1.45994127702363,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6761.0
+    }
+  } ]
+}, {
+  "name" : "OGLE-2015-BLG-0051L System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "OGLE-2015-BLG-0051L",
+    "radius" : 0.0,
+    "mass" : 0.09999597787833082,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 0.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "OGLE-2015-BLG-0051L b",
+    "radius" : 0.0,
+    "mass" : 0.72,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 1.0920644583E8,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 0.0,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "OGLE-2015-BLG-0051L",
+      "radius" : 0.0,
+      "mass" : 0.09999597787833082,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 0.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-413 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-413",
+    "radius" : 0.78,
+    "mass" : 0.8199670186023127,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 4700.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-413 b",
+    "radius" : 0.388,
+    "mass" : 0.211,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 5.31521235663E7,
+    "eccentricity" : 0.1181,
+    "orbitalPeriod" : 66.262,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-413",
+      "radius" : 0.78,
+      "mass" : 0.8199670186023127,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 4700.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-11 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-11",
+    "radius" : 1.06,
+    "mass" : 0.9599613876319758,
+    "pictureUrl" : "http://bit.ly/2Iz4jPB",
+    "effectiveTemp" : 5663.0
+  },
+  "pictureUrl" : "http://bit.ly/39z5RVD",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-11 b",
+    "radius" : 0.161,
+    "mass" : 0.006,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 1.3613406261E7,
+    "eccentricity" : 0.045,
+    "orbitalPeriod" : 10.3039,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-11",
+      "radius" : 1.06,
+      "mass" : 0.9599613876319758,
+      "pictureUrl" : "http://bit.ly/2Iz4jPB",
+      "effectiveTemp" : 5663.0
+    }
+  }, {
+    "type" : "Planet",
+    "name" : "Kepler-11 c",
+    "radius" : 0.256,
+    "mass" : 0.009,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 1.6006972196999999E7,
+    "eccentricity" : 0.026,
+    "orbitalPeriod" : 13.0241,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-11",
+      "radius" : 1.06,
+      "mass" : 0.9599613876319758,
+      "pictureUrl" : "http://bit.ly/2Iz4jPB",
+      "effectiveTemp" : 5663.0
+    }
+  }, {
+    "type" : "Planet",
+    "name" : "Kepler-11 d",
+    "radius" : 0.278,
+    "mass" : 0.023,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 2.3187670005E7,
+    "eccentricity" : 0.004,
+    "orbitalPeriod" : 22.6845,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-11",
+      "radius" : 1.06,
+      "mass" : 0.9599613876319758,
+      "pictureUrl" : "http://bit.ly/2Iz4jPB",
+      "effectiveTemp" : 5663.0
+    }
+  }, {
+    "type" : "Planet",
+    "name" : "Kepler-11 e",
+    "radius" : 0.374,
+    "mass" : 0.025,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 2.9171584845000003E7,
+    "eccentricity" : 0.012,
+    "orbitalPeriod" : 31.9996,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-11",
+      "radius" : 1.06,
+      "mass" : 0.9599613876319758,
+      "pictureUrl" : "http://bit.ly/2Iz4jPB",
+      "effectiveTemp" : 5663.0
+    }
+  }, {
+    "type" : "Planet",
+    "name" : "Kepler-11 f",
+    "radius" : 0.222,
+    "mass" : 0.006,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 3.739946775E7,
+    "eccentricity" : 0.013,
+    "orbitalPeriod" : 46.6888,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-11",
+      "radius" : 1.06,
+      "mass" : 0.9599613876319758,
+      "pictureUrl" : "http://bit.ly/2Iz4jPB",
+      "effectiveTemp" : 5663.0
+    }
+  }, {
+    "type" : "Planet",
+    "name" : "Kepler-11 g",
+    "radius" : 0.297,
+    "mass" : 0.079,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 6.9712607886E7,
+    "eccentricity" : 0.15,
+    "orbitalPeriod" : 118.3807,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-11",
+      "radius" : 1.06,
+      "mass" : 0.9599613876319758,
+      "pictureUrl" : "http://bit.ly/2Iz4jPB",
+      "effectiveTemp" : 5663.0
+    }
+  } ]
+}, {
+  "name" : "WASP-49 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "WASP-49",
+    "radius" : 0.97,
+    "mass" : 0.9199629964806436,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5600.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "WASP-49 b",
+    "radius" : 1.11,
+    "mass" : 0.36999999999999994,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 2.78174,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "WASP-49",
+      "radius" : 0.97,
+      "mass" : 0.9199629964806436,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5600.0
+    }
+  } ]
+}, {
+  "name" : "K2-11 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "K2-11",
+    "radius" : 5.15,
+    "mass" : 1.349945701357466,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5433.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "K2-11 b",
+    "radius" : 0.674,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 3.37642394847E7,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 39.93767,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "K2-11",
+      "radius" : 5.15,
+      "mass" : 1.349945701357466,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5433.0
+    }
+  } ]
+}, {
+  "name" : "K2-111 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "K2-111",
+    "radius" : 1.23,
+    "mass" : 0.8799646053293112,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5730.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "K2-111 b",
+    "radius" : 0.17,
+    "mass" : 0.02706,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 9290027.7891,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 5.35117,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "K2-111",
+      "radius" : 1.23,
+      "mass" : 0.8799646053293112,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5730.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-435 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-435",
+    "radius" : 3.21,
+    "mass" : 1.5399380593262946,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6161.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-435 b",
+    "radius" : 1.9899999999999998,
+    "mass" : 0.8399999999999999,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 1.4181878170799999E7,
+    "eccentricity" : 0.114,
+    "orbitalPeriod" : 8.6001536,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-435",
+      "radius" : 3.21,
+      "mass" : 1.5399380593262946,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6161.0
+    }
+  } ]
+}, {
+  "name" : "WASP-181 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "WASP-181",
+    "radius" : 0.96,
+    "mass" : 1.0399581699346405,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5839.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "WASP-181 b",
+    "radius" : 1.184,
+    "mass" : 0.299,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 8118676.45917,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 4.5195064,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "WASP-181",
+      "radius" : 0.96,
+      "mass" : 1.0399581699346405,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5839.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1628 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1628",
+    "radius" : 0.52,
+    "mass" : 0.5499778783308196,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 3724.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1628 b",
+    "radius" : 0.574,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 76.378033,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1628",
+      "radius" : 0.52,
+      "mass" : 0.5499778783308196,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 3724.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1592 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1592",
+    "radius" : 1.28,
+    "mass" : 1.1799525389643035,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6213.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1592 b",
+    "radius" : 0.137,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 3.05710069,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1592",
+      "radius" : 1.28,
+      "mass" : 1.1799525389643035,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6213.0
+    }
+  } ]
+}, {
+  "name" : "HIP 8541 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "HIP 8541",
+    "radius" : 7.83,
+    "mass" : 1.1699529411764704,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 4670.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "HIP 8541 b",
+    "radius" : 0.0,
+    "mass" : 5.5,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 4.1887403879999995E8,
+    "eccentricity" : 0.16,
+    "orbitalPeriod" : 1560.2,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "HIP 8541",
+      "radius" : 7.83,
+      "mass" : 1.1699529411764704,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 4670.0
+    }
+  } ]
+}, {
+  "name" : "HD 216435 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "HD 216435",
+    "radius" : 0.0,
+    "mass" : 1.2999477124183008,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5999.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "HD 216435 b",
+    "radius" : 0.0,
+    "mass" : 1.26,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 3.8297054976E8,
+    "eccentricity" : 0.07,
+    "orbitalPeriod" : 1311.0,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "HD 216435",
+      "radius" : 0.0,
+      "mass" : 1.2999477124183008,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5999.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1147 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1147",
+    "radius" : 1.14,
+    "mass" : 1.089956158873806,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5941.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1147 b",
+    "radius" : 0.23300000000000004,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 10.62784997,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1147",
+      "radius" : 1.14,
+      "mass" : 1.089956158873806,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5941.0
+    }
+  } ]
+}, {
+  "name" : "NGC 2682 Sand 978 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "NGC 2682 Sand 978",
+    "radius" : 0.0,
+    "mass" : 1.3699448969331323,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 4200.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "NGC 2682 Sand 978 b",
+    "radius" : 0.0,
+    "mass" : 2.18,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.16,
+    "orbitalPeriod" : 511.21,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "NGC 2682 Sand 978",
+      "radius" : 0.0,
+      "mass" : 1.3699448969331323,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 4200.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-641 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-641",
+    "radius" : 1.13,
+    "mass" : 1.0199589743589743,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5713.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-641 b",
+    "radius" : 0.165,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 9.48961571,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-641",
+      "radius" : 1.13,
+      "mass" : 1.0199589743589743,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5713.0
+    }
+  } ]
+}, {
+  "name" : "GJ 3634 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "GJ 3634",
+    "radius" : 0.43,
+    "mass" : 0.4499819004524887,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 0.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "GJ 3634 b",
+    "radius" : 0.0,
+    "mass" : 0.026,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 4293458.8977,
+    "eccentricity" : 0.08,
+    "orbitalPeriod" : 2.64561,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "GJ 3634",
+      "radius" : 0.43,
+      "mass" : 0.4499819004524887,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 0.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1606 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1606",
+    "radius" : 0.86,
+    "mass" : 0.8999638009049774,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5422.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1606 b",
+    "radius" : 0.185,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 196.435224,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1606",
+      "radius" : 0.86,
+      "mass" : 0.8999638009049774,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5422.0
+    }
+  } ]
+}, {
+  "name" : "HD 190647 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "HD 190647",
+    "radius" : 1.38,
+    "mass" : 1.0699569632981398,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5656.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "HD 190647 b",
+    "radius" : 0.0,
+    "mass" : 1.985,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 3.33752850201E8,
+    "eccentricity" : 0.224,
+    "orbitalPeriod" : 1176.45,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "HD 190647",
+      "radius" : 1.38,
+      "mass" : 1.0699569632981398,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5656.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1158 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1158",
+    "radius" : 1.95,
+    "mass" : 1.4099432880844647,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6203.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1158 b",
+    "radius" : 0.209,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 13.5396293,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1158",
+      "radius" : 1.95,
+      "mass" : 1.4099432880844647,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6203.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1169 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1169",
+    "radius" : 1.23,
+    "mass" : 1.2399501256913021,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6191.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1169 b",
+    "radius" : 0.084,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 6.11009134,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1169",
+      "radius" : 1.23,
+      "mass" : 1.2399501256913021,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6191.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1617 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1617",
+    "radius" : 1.22,
+    "mass" : 1.1499537456008042,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6167.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1617 b",
+    "radius" : 0.107,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 27.4785572,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1617",
+      "radius" : 1.22,
+      "mass" : 1.1499537456008042,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6167.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-630 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-630",
+    "radius" : 1.04,
+    "mass" : 1.0199589743589743,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5829.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-630 b",
+    "radius" : 0.284,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 161.4743937,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-630",
+      "radius" : 1.04,
+      "mass" : 1.0199589743589743,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5829.0
+    }
+  } ]
+}, {
+  "name" : "K2-22 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "K2-22",
+    "radius" : 0.57,
+    "mass" : 0.5999758672699849,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 3830.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "K2-22 b",
+    "radius" : 0.223,
+    "mass" : 1.3999999999999997,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 1316461.2648,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 0.381078,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "K2-22",
+      "radius" : 0.57,
+      "mass" : 0.5999758672699849,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 3830.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-652 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-652",
+    "radius" : 0.88,
+    "mass" : 0.9699609854198089,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5490.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-652 b",
+    "radius" : 0.222,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 4.18200253,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-652",
+      "radius" : 0.88,
+      "mass" : 0.9699609854198089,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5490.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-905 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-905",
+    "radius" : 0.86,
+    "mass" : 0.9499617898441427,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5461.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-905 b",
+    "radius" : 0.126,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 5.08274652,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-905",
+      "radius" : 0.86,
+      "mass" : 0.9499617898441427,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5461.0
+    }
+  } ]
+}, {
+  "name" : "K2-33 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "K2-33",
+    "radius" : 1.05,
+    "mass" : 0.5599774761186527,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 3540.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "K2-33 b",
+    "radius" : 0.45,
+    "mass" : 3.7,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 5.424865,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "K2-33",
+      "radius" : 1.05,
+      "mass" : 0.5599774761186527,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 3540.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1364 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1364",
+    "radius" : 1.79,
+    "mass" : 1.4899400703871293,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6805.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1364 b",
+    "radius" : 0.192,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 13.32196237,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1364",
+      "radius" : 1.79,
+      "mass" : 1.4899400703871293,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6805.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-663 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-663",
+    "radius" : 0.82,
+    "mass" : 0.859965409753645,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5264.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-663 b",
+    "radius" : 0.232,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 4.99678284,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-663",
+      "radius" : 0.82,
+      "mass" : 0.859965409753645,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5264.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1386 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1386",
+    "radius" : 1.03,
+    "mass" : 1.0199589743589743,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 5733.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1386 b",
+    "radius" : 0.111,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 6.73972381,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1386",
+      "radius" : 1.03,
+      "mass" : 1.0199589743589743,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 5733.0
+    }
+  } ]
+}, {
+  "name" : "Kepler-1375 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "Kepler-1375",
+    "radius" : 1.78,
+    "mass" : 1.469940874811463,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 6704.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "Kepler-1375 b",
+    "radius" : 0.155,
+    "mass" : 0.0,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 0.0,
+    "eccentricity" : 0.0,
+    "orbitalPeriod" : 3.3004192,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "Kepler-1375",
+      "radius" : 1.78,
+      "mass" : 1.469940874811463,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 6704.0
+    }
+  } ]
+}, {
+  "name" : "HD 120084 System",
+  "centerStar" : {
+    "type" : "star",
+    "name" : "HD 120084",
+    "radius" : 9.12,
+    "mass" : 2.389903871292107,
+    "pictureUrl" : "http://bit.ly/336nzNZ",
+    "effectiveTemp" : 4892.0
+  },
+  "pictureUrl" : "http://bit.ly/2Iz4jPB",
+  "planets" : [ {
+    "type" : "Planet",
+    "name" : "HD 120084 b",
+    "radius" : 0.0,
+    "mass" : 4.5,
+    "pictureUrl" : "http://bit.ly/2Q2PngD",
+    "semiMajorAxis" : 6.432708453E8,
+    "eccentricity" : 0.66,
+    "orbitalPeriod" : 2082.0,
+    "centralCelestialBody" : {
+      "type" : "star",
+      "name" : "HD 120084",
+      "radius" : 9.12,
+      "mass" : 2.389903871292107,
+      "pictureUrl" : "http://bit.ly/336nzNZ",
+      "effectiveTemp" : 4892.0
+    }
+  } ]
 } ]

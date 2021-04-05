@@ -116,12 +116,12 @@ public class UniverseCSVRepository implements UniverseRepository{
     }
 
     @Override
-    public Planet updatePlanet(Planet planet, String planetSystemName) {
+    public ArrayList<Planet> updatePlanet(String planetName, String planetSystemName, HashMap<String, String> planetInfoHashMap) {
         return null;
     }
 
     @Override
-    public Planet createPlanet(Planet planet, String planetSystemName) {
+    public ArrayList<Planet> createPlanet(Planet planet, String planetSystemName) {
         return null;
     }
 }

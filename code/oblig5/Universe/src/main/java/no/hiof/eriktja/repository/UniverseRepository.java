@@ -4,6 +4,7 @@ import no.hiof.eriktja.model.Planet;
 import no.hiof.eriktja.model.PlanetSystem;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public interface UniverseRepository {
 
@@ -14,6 +15,10 @@ public interface UniverseRepository {
 
     // Task 2.3 Create, update, delete
     ArrayList<Planet> deletePlanet(String planetName, String planetSystemName);
-    Planet updatePlanet(Planet planet, String planetSystemName);
-    Planet createPlanet(Planet planet, String planetSystemName);
+    // planetSystemName, name, radius, mass, semiMajorAxis, eccentricity, orbitalPeriod, pictureUrl
+    //ArrayList<Planet> updatePlanet(String planetName, String planetSystemName, String name, double radius, double mass, double semiMajorAxis, double eccentricity, double orbitalPeriod, String pictureUrl);
+    ArrayList<Planet> updatePlanet(String planetName, String planetSystemName, HashMap<String, String> planetInfoHashMap);
+    ArrayList<Planet> createPlanet(Planet planet, String planetSystemName);
+
+
 }

@@ -109,4 +109,7 @@ public class PlanetSystem implements Comparable<PlanetSystem> {
                 " as the center star. It has " + planets.size() + " planets.";
     }
 
+    public void setPlanets(ArrayList<Planet> planets) {
+        this.planets = planets;
+    }
 }

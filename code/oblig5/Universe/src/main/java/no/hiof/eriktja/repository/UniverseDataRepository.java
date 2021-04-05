@@ -5,6 +5,7 @@ import no.hiof.eriktja.model.PlanetSystem;
 import no.hiof.eriktja.model.Star;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class UniverseDataRepository implements UniverseRepository {
     private ArrayList<PlanetSystem> planetSystems = new ArrayList<>();
@@ -186,13 +187,12 @@ public class UniverseDataRepository implements UniverseRepository {
     }
 
     @Override
-    public Planet updatePlanet(Planet planet, String planetSystemName) {
+    public ArrayList<Planet> updatePlanet(String planetName, String planetSystemName, HashMap<String, String> planetInfoHashMap) {
         return null;
     }
 
     @Override
-    public Planet createPlanet(Planet planet, String planetSystemName) {
+    public ArrayList<Planet> createPlanet(Planet planet, String planetSystemName) {
         return null;
     }
-
 }

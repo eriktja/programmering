@@ -25,13 +25,19 @@ public class Application {
         UniverseRepository universeRepository = new UniverseJSONRepository("testJSONfile.json");
         PlanetSystemController planetSystemController = new PlanetSystemController(universeRepository);
         PlanetController planetController = new PlanetController(universeRepository);
-        // Creating an instance of UniverseDataRepository creates
 
         app.get("/", ctx -> ctx.redirect("/planet-system"));
+        //app.get("/api/planet-system/:planet-system-id/planets/:planet-id/delete",
+        //        ctx -> ctx.redirect("/planet-system/:planet-system-id/planets"));
+        /*app.get("/api/planet-system/:planet-system-id/planets/:planet-id/update",
+                ctx -> ctx.redirect("/planet-system/:planet-system-id/planets"));
+        app.get("/api/planet-system/:planet-system-id/planets/create",
+                ctx -> ctx.redirect("/planet-system/:planet-system-id/planets"));*/
 
         app.get("/planet-system/", new VueComponent("planet-system-overview"));
         app.get("/planet-system/:planet-system-id", new VueComponent("planet-system-detail"));
-        app.get("/planet-system/:planet-system-id/planets/create", new VueComponent("planet-create.vue"));
+        app.get("/planet-system/:planet-system-id/planets/create", new VueComponent("planet-create"));
+        app.get("/planet-system/:planet-system-id/planets/:planet-id/update", new VueComponent("planet-update"));
         app.get("/planet-system/:planet-system-id/planets/:planet-id", new VueComponent("planet-detail"));
 
         // Testing write to file for both JSON and CSV
@@ -57,6 +63,18 @@ public class Application {
                 planetController.getAllPlanetsInSystem(ctx);
             }
         });
+        app.post("/api/planet-system/:planet-system-id/planets/create", new Handler() {
+            @Override
+            public void handle(@NotNull Context ctx) throws Exception {
+                planetController.createPlanet(ctx);
+            }
+        });
+        app.post("/api/planet-system/:planet-system-id/planets/:planet-id/update", new Handler() {
+            @Override
+            public void handle(@NotNull Context ctx) throws Exception {
+                planetController.updatePlanet(ctx);
+            }
+        });
         app.get("/api/planet-system/:planet-system-id/planets/:planet-id", new Handler() {
             @Override
             public void handle(@NotNull Context ctx) throws Exception {
@@ -69,12 +87,5 @@ public class Application {
                 planetController.deletePlanet(ctx);
             }
         });
-        app.get("/api/planet-system/:planet-system-id/planets/create", new Handler() {
-            @Override
-            public void handle(@NotNull Context ctx) throws Exception {
-                planetController.createPlanet(ctx);
-            }
-        });
-
     }
 }
