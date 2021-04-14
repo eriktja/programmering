@@ -27,12 +27,6 @@ public class Application {
         PlanetController planetController = new PlanetController(universeRepository);
 
         app.get("/", ctx -> ctx.redirect("/planet-system"));
-        //app.get("/api/planet-system/:planet-system-id/planets/:planet-id/delete",
-        //        ctx -> ctx.redirect("/planet-system/:planet-system-id/planets"));
-        /*app.get("/api/planet-system/:planet-system-id/planets/:planet-id/update",
-                ctx -> ctx.redirect("/planet-system/:planet-system-id/planets"));
-        app.get("/api/planet-system/:planet-system-id/planets/create",
-                ctx -> ctx.redirect("/planet-system/:planet-system-id/planets"));*/
 
         app.get("/planet-system/", new VueComponent("planet-system-overview"));
         app.get("/planet-system/:planet-system-id", new VueComponent("planet-system-detail"));
@@ -41,8 +35,16 @@ public class Application {
         app.get("/planet-system/:planet-system-id/planets/:planet-id", new VueComponent("planet-detail"));
 
         // Testing write to file for both JSON and CSV
+        // Remove // for testing
         //UniverseCSVRepository.writeToFile(universeRepository.getPlanetSystems(), "testCSVfile.csv");
         //UniverseJSONRepository.writeToFile(universeRepository.getPlanetSystems(), "testJSONfile.json");
+
+        // Oppgave 2.6 - Tråder
+        // universeRepository is an object of UniverseRepository so i typecast it to UnicerseJSONRepository
+        Thread jsonThread = new Thread((UniverseJSONRepository) universeRepository);
+        jsonThread.start();
+        System.out.println(jsonThread.getName());
+
 
 
         app.get("/api/planet-system/", new Handler() {

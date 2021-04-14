@@ -70,7 +70,7 @@ public class UniverseJSONRepository implements UniverseRepository, Runnable{
 
     @Override
     public ArrayList<Planet> getAllPlanetsInSystem(String name) {
-        return new ArrayList<Planet>(this.planetSystemHashMap.get(name).getPlanets());
+        return new ArrayList<Planet>(getSpecificPlanetSystem(name).getPlanets());
     }
 
     @Override
@@ -78,9 +78,13 @@ public class UniverseJSONRepository implements UniverseRepository, Runnable{
         return getSpecificPlanetSystem(planetSystemName).findPlanet(planetName);
     }
 
+
+    // Find the correct system and planet
+    // Iterate through the planets and remove the specific planet(her måtte jeg google litt kode)
+    // write to file and to planetSystemHashMap
     @Override
     public ArrayList<Planet> deletePlanet(String planetName, String planetSystemName) {
-        PlanetSystem planetSystem = this.planetSystemHashMap.get(planetSystemName);
+        PlanetSystem planetSystem = getSpecificPlanetSystem(planetSystemName);
         ArrayList<Planet> planets = planetSystem.getPlanets();
         Iterator<Planet> planetIterator = planets.iterator();
         while (planetIterator.hasNext()){
@@ -96,14 +100,19 @@ public class UniverseJSONRepository implements UniverseRepository, Runnable{
         }
         return planets;
     }
+
+    // Find the correct system and planet
+    // Add the changes from "planetInfo" in controller
+    // Write the changes to file and to planetSystemHashmap
     @Override
     public ArrayList<Planet> updatePlanet(String planetName ,
                                           String planetSystemName,
                                           HashMap<String, String> planetInfoHashMap) {
-        PlanetSystem planetSystem = this.planetSystemHashMap.get(planetSystemName);
+        PlanetSystem planetSystem = getSpecificPlanetSystem(planetSystemName);
         ArrayList<Planet> planets = planetSystem.getPlanets();
         for (Planet aPlanet : planets) {
             if (aPlanet.getName().equalsIgnoreCase(planetName)) {
+                aPlanet.setName(planetInfoHashMap.get("name"));
                 aPlanet.setRadius(Double.parseDouble(planetInfoHashMap.get("radius")));
                 aPlanet.setMass(Double.parseDouble(planetInfoHashMap.get("mass")));
                 aPlanet.setSemiMajorAxis(Double.parseDouble(planetInfoHashMap.get("semiMajorAxis")));
@@ -118,38 +127,12 @@ public class UniverseJSONRepository implements UniverseRepository, Runnable{
         }
         return null;
     }
-    /*@Override
-    public ArrayList<Planet> updatePlanet(String planetName ,
-                                          String planetSystemName,
-                                          String name,
-                                          double radius,
-                                          double mass,
-                                          double semiMajorAxis,
-                                          double eccentricity,
-                                          double orbitalPeriod,
-                                          String pictureUrl) {
-        PlanetSystem planetSystem = this.planetSystemHashMap.get(planetSystemName);
-        ArrayList<Planet> planets = planetSystem.getPlanets();
-        for (Planet aPlanet : planets) {
-            if (aPlanet.getName().equalsIgnoreCase(planetName)) {
-                aPlanet.setName(name);
-                aPlanet.setRadius(radius);
-                aPlanet.setSemiMajorAxis(semiMajorAxis);
-                aPlanet.setEccentricity(eccentricity);
-                aPlanet.setOrbitalPeriod(orbitalPeriod);
-                aPlanet.setPictureUrl(pictureUrl);
-                planetSystemHashMap.put(planetSystem.getName(), planetSystem);
-                ArrayList<PlanetSystem> updatedPlanetSystem = new ArrayList<>(planetSystemHashMap.values());
-                writeToFile(updatedPlanetSystem, "testJSONfile.json");
-                return planets;
-            }
-        }
-        return null;
-    }*/
-
+    // Find the correct system
+    // Add the new planet created in the controller
+    // Write the changes to file and to planetSystemHashmap
     @Override
     public ArrayList<Planet> createPlanet(Planet planet, String planetSystemName) {
-        PlanetSystem planetSystem = this.planetSystemHashMap.get(planetSystemName);
+        PlanetSystem planetSystem = getSpecificPlanetSystem(planetSystemName);
         planet.setCentralCelestialBody(planetSystem.getCenterStar());
         planetSystem.addPlanet(planet);
         this.planetSystemHashMap.put(planetSystemName, planetSystem);
@@ -160,14 +143,15 @@ public class UniverseJSONRepository implements UniverseRepository, Runnable{
 
     @Override
     public void run() {
-        /*public static void writeToFile(ArrayList<PlanetSystem> planetSystems, String fileName){
             ObjectMapper objectMapper = new ObjectMapper();
-
+            ArrayList<PlanetSystem> planetSystems = new ArrayList<>(planetSystemHashMap.values());
+            // creates a new file "fileThread.json" which is written to in its own thread.
+            File fileThread = new File("fileThread.json");
             try {
-                objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File(fileName) ,planetSystems);
+                objectMapper.writerWithDefaultPrettyPrinter().writeValue(fileThread ,planetSystems);
             } catch (IOException ioException) {
                 ioException.printStackTrace();
             }
-        }*/
+
     }
 }

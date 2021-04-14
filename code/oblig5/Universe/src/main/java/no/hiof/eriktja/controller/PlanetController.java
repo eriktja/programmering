@@ -4,6 +4,7 @@ import no.hiof.eriktja.model.Planet;
 import no.hiof.eriktja.repository.UniverseRepository;
 import io.javalin.http.Context;
 
+import java.io.IOException;
 import java.util.*;
 
 public class PlanetController {
@@ -53,11 +54,16 @@ public class PlanetController {
         String planetSystemName = ctx.pathParam(":planet-system-id");
         String planetName = ctx.pathParam(":planet-id");
         ctx.json(universeRepository.deletePlanet(planetName, planetSystemName));
+        try { // Redirect back to planet overview
+            ctx.res.sendRedirect("/planet-system/" + planetSystemName);
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
     }
 
 
     // Oppgave 2.5c - Felles kode mellom create og update
-    public HashMap<String, String> planetInfo(Context ctx) {
+    private HashMap<String, String> planetInfo(Context ctx) {
         HashMap<String, String> planetInfoHashmap = new HashMap<>();
         planetInfoHashmap.put("name", ctx.formParam("name"));
         planetInfoHashmap.put("radius", ctx.formParam("radius"));
@@ -82,36 +88,25 @@ public class PlanetController {
         aPlanet.setPictureUrl(planetInfo(ctx).get("pictureUrl"));
 
         ctx.json(universeRepository.createPlanet(aPlanet, planetSystemName));
+        try { // Redirect back to planet overview
+            ctx.res.sendRedirect("/planet-system/" + planetSystemName);
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
     }
-    // Oppgave 2.5 - Update
-    /*public void updatePlanet(Context ctx) {
-        String planetSystemName = ctx.pathParam(":planet-system-id");
-        String planetName = ctx.pathParam(":planet-id");
-        String name = planetInfo(ctx).get("name");
-        double radius = Double.parseDouble(planetInfo(ctx).get("radius"));
-        double mass = Double.parseDouble(planetInfo(ctx).get("mass"));
-        double semiMajorAxis = Double.parseDouble(planetInfo(ctx).get("semiMajorAxis"));
-        double eccentricity = Double.parseDouble(planetInfo(ctx).get("eccentricity"));
-        double orbitalPeriod = Double.parseDouble(planetInfo(ctx).get("orbitalPeriod"));
-        String pictureUrl = planetInfo(ctx).get("pictureUrl");
-        ctx.json(universeRepository.updatePlanet(
-                planetName,
-                planetSystemName,
-                name,
-                radius,
-                mass,
-                semiMajorAxis,
-                eccentricity,
-                orbitalPeriod,
-                pictureUrl));
-    }*/
+
     // Oppgave 2.5 - Update
     public void updatePlanet(Context ctx) {
         String planetSystemName = ctx.pathParam(":planet-system-id");
         String planetName = ctx.pathParam(":planet-id");
         ctx.json(universeRepository.updatePlanet(
-                planetName,             // Planetname so the method updates the correct object
-                planetSystemName,       // Systemname so we can find the correct planet
+                planetName,             // PlanetName so the method updates the correct object
+                planetSystemName,       // SystemName so we can find the correct planet
                 planetInfo(ctx)));      // A Hashmap containing the changes made
+        try { // Redirect back to planet overview
+            ctx.res.sendRedirect("/planet-system/" + planetSystemName);
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
     }
 }

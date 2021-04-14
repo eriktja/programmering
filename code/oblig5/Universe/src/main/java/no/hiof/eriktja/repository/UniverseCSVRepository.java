@@ -102,7 +102,7 @@ public class UniverseCSVRepository implements UniverseRepository{
 
     @Override
     public ArrayList<Planet> getAllPlanetsInSystem(String name) {
-        return new ArrayList<Planet>(this.planetSystemHashMap.get(name).getPlanets());
+        return new ArrayList<Planet>(getSpecificPlanetSystem(name).getPlanets());
     }
 
     @Override
@@ -110,6 +110,7 @@ public class UniverseCSVRepository implements UniverseRepository{
         return getSpecificPlanetSystem(planetSystemName).findPlanet(planetName);
     }
 
+    // CREATE, UPDATE og DELETE er kun brukt via UniverseJSONRepository og vil kun fungere mens den klassen er i bruk
     @Override
     public ArrayList<Planet> deletePlanet(String planetName, String planetSystemName) {
         return null;
@@ -119,7 +120,6 @@ public class UniverseCSVRepository implements UniverseRepository{
     public ArrayList<Planet> updatePlanet(String planetName, String planetSystemName, HashMap<String, String> planetInfoHashMap) {
         return null;
     }
-
     @Override
     public ArrayList<Planet> createPlanet(Planet planet, String planetSystemName) {
         return null;
